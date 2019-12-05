@@ -474,6 +474,7 @@ type Gather struct {
 	Hints                 string   `xml:"hints,attr,omitempty"`
 	PartialResultCallback string   `xml:"partialResultCallback,attr,omitempty"`
 	Language              string   `xml:"language,attr,omitempty"`
+	SpeechModel           string   `xml:"speechModel,attr,omitempty"`
 	ProfanityFilter       bool     `xml:"profanityFilter,attr,omitempty"`
 	SpeechTimeout         int      `xml:"speechTimeout,attr,omitempty"`
 	Children              []Markup `valid:"-"`
