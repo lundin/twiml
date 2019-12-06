@@ -410,7 +410,7 @@ type Say struct {
 // Validate returns an error if the TwiML is constructed improperly
 func (s *Say) Validate() error {
 	ok := Validate(
-		OneOfOpt(s.Voice, Man, Woman, Alice),
+		OneOfOpt(s.Voice, Man, Woman, Alice, PollyAstrid),
 		AllowedLanguage(s.Voice, s.Language),
 		Required(s.Text),
 	)
