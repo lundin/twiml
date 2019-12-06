@@ -4,6 +4,7 @@ package twiml
 const (
 	Man                = "man"
 	Woman              = "woman"
+	PollyAstrid 	= "Polly.Astrid"
 	Alice              = "alice"
 	English            = "en"
 	French             = "fr"
